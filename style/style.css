@@ -9,11 +9,14 @@
 nav{
     background-color: var(--texto-navbar);
 }
+.brand-nombre{
+    margin-left: 10px;
+}
 nav a{
     font-weight:600;
 }
 ion-icon{
-    font-size: 18px;
+    font-size: 22px;
 }
 
 /* CSS del Home */
@@ -24,9 +27,6 @@ ion-icon{
     background-size: cover;
 }
 
-.principal{
-    margin-top: 26em;
-}
 .titulo{
     text-rendering: optimizeLegibility;
     color: var(--texto-container);
@@ -64,5 +64,29 @@ a{
 
 /* CSS de Aporte */
 
+
+/* ---------------------------------------------- */
+
+/* CSS de Login*/
+.main-login{
+    margin: 0;
+    min-height: 100vh;
+    background: linear-gradient(rgba(73, 158, 195, 0.75),rgba(17, 20, 24, 0.75)), url(../img/logreg.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+
+.xd{
+    background: rgb(87,161,199);
+    background: linear-gradient(0deg, rgba(87,161,199,1) 49%, rgba(0,99,255,1) 94%); 
+}
+/* ---------------------------------------------- */
+
+/* CSS de Register */
+.main-register{
+    margin: 0;
+    min-height: 100vh;
+    background: linear-gradient(rgba(73, 158, 195, 0.75),rgba(17, 20, 24, 0.75)), url(../img/logreg.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
 
 /* ---------------------------------------------- */

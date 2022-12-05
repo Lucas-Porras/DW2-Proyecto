@@ -14,7 +14,7 @@
     <link rel="icon" type="image/png" href="favicon.png">
 </head>
 <body>
-  <main class="main-principal">
+  <main class="main-register">
     <nav class="navbar navbar-expand-lg shadow-lg">
       <div class="container-fluid">
         <img src="img/autobus.png" alt="" width=55></img>
@@ -49,18 +49,30 @@
         </div>
       </div>
     </nav>
-    <div class="container principal mt-5">
-        <div class="texto-principal">
-            <p class="text-center"><img src="img/autobus.png" alt="" width="160"></img></p>
-            <p class="text-center titulo">Nombre Original</p>
-            <p class="subtitulo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, vel! Incidunt quo totam adipisci sint consequatur voluptates velit. Quia eaque possimus animi nesciunt quisquam nisi perspiciatis, tenetur vero esse velit.</p>
-            <div class="align-self-center d-flex justify-content-center">
-              <ion-icon name="logo-facebook" style="font-size: 55px; margin-right: 35px;"></ion-icon>
-              <ion-icon name="logo-instagram" style="font-size: 55px; margin-right: 35px;"></ion-icon>
-              <ion-icon name="logo-youtube" style="font-size: 55px; margin-right: 35px;"></ion-icon>
-              <ion-icon name="logo-twitter" style="font-size: 55px; margin-right: 35px;"></ion-icon>
-            </div>
-          </div>
+    <div class="container login mt-5">
+        <div class="p-5 rounded xd shadow-lg">
+            <h1 class="text-center titulo">Registrarse</h1>
+            <form>
+                <div class="mb-2">
+                  <label class="form-label">Email</label>
+                  <input type="email" class="form-control">
+                  <div class="form-text">Nunca compartiremos tu email con nadie</div>
+                </div>
+                <div class="mb-2">
+                    <label class="form-label">Usuario</label>
+                    <input type="text" class="form-control">
+                  </div>
+                <div class="mb-3">
+                  <label for="exampleInputPassword1" class="form-label">Contraseña</label>
+                  <input type="password" class="form-control">
+                </div>
+                <div class="mb-3">
+                    <label for="exampleInputPassword1" class="form-label">Confirmar contraseña</label>
+                    <input type="password" class="form-control">
+                  </div>
+                <button type="submit" class="btn btn-primary">Registrarme</button>
+              </form>
+        </div>
     </div>
   </main>
   <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
